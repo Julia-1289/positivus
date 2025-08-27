@@ -1,7 +1,12 @@
-@import 'fonts', 
-'globals', 
-'media', 
-'mixins', 
-'normalize', 
-'utils', 
-'variables';
+@use 'fonts';
+@use 'globals';
+@use 'media';
+@use 'mixins';
+@use 'normalize';
+@use 'utils';
+@use 'variables';
+@use './blocks/button';
+@use './blocks/burger-button';
+@use './blocks/header';
+@use './blocks/cross-button';
+@use './blocks/mobile-overlay';
