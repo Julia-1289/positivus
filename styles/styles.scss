@@ -1,3 +1,6 @@
+@use './blocks/field';
+@use './blocks/radio';
+@use './blocks/radios';
 @use 'fonts';
 @use 'globals';
 @use 'media';
@@ -24,3 +27,4 @@
 @use './blocks/pagination';
 @use './blocks/reviews';
 @use './blocks/review-card';
+@use './blocks/contact-us';
