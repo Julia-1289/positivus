@@ -47,11 +47,19 @@
     }
     &__actions {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 100%;
         min-width: 564px;
         margin-inline: auto;
+
+        @include mobile {
+            justify-content: space-between;
+        }
+
+        @include mobile-s-above {
+            column-gap: 189px;
+        }
     }
 
     &__arrow-button {
@@ -59,7 +67,7 @@
         @include flex-center;
         @include square(48px);
 
-        color: var(color-light);
+        color: var(--color-light);
 
         @include hover {
             color: var(--color-accent);
